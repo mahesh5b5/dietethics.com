@@ -1,0 +1,120 @@
+[
+  {
+    "name": "Royal Dates",
+    "image": "/assets/products/royal-dates.jpeg",
+    "badge": "Best Seller",
+    "note": "Naturally sweet, soft, and rich in micronutrients for clean energy.",
+    "tag": "Daily Energy",
+    "grams": "500g",
+    "price": "Rs. 480",
+    "caloriesPerServing": "Approx. 140 kcal per serving*",
+    "highlights": ["Natural Sugars", "Iron Support", "No Added Sugar"]
+  },
+  {
+    "name": "Premium Almonds",
+    "image": "/assets/products/almonds.jpeg",
+    "badge": "Protein Rich",
+    "note": "Roasted crunch with healthy fats and vitamin E support.",
+    "tag": "Brain Fuel",
+    "grams": "250g",
+    "price": "Rs. 420",
+    "caloriesPerServing": "Approx. 165 kcal per serving*",
+    "variants": [
+      { "grams": "200g", "price": "Rs. 350" },
+      { "grams": "400g", "price": "Rs. 680" }
+    ],
+    "highlights": ["Vitamin E", "Healthy Fats", "Protein Dense"]
+  },
+  {
+    "name": "Whole Cashews",
+    "image": "/assets/products/cashews.jpeg",
+    "badge": "Chef Pick",
+    "note": "Creamy texture and clean taste for smart snacking.",
+    "tag": "Snack Smart",
+    "grams": "250g",
+    "price": "Rs. 460",
+    "caloriesPerServing": "Approx. 170 kcal per serving*",
+    "variants": [
+      { "grams": "200g", "price": "Rs. 380" },
+      { "grams": "400g", "price": "Rs. 740" }
+    ],
+    "highlights": ["Mineral Rich", "Creamy Crunch", "Premium Grade"]
+  },
+  {
+    "name": "California Walnuts",
+    "image": "/assets/products/walnuts.jpeg",
+    "badge": "Omega Boost",
+    "note": "Nutty bites packed with omega-3 and antioxidants.",
+    "tag": "Heart Friendly",
+    "grams": "250g",
+    "price": "Rs. 520",
+    "caloriesPerServing": "Approx. 180 kcal per serving*",
+    "highlights": ["Omega-3", "Antioxidants", "Plant Nutrition"]
+  },
+  {
+    "name": "Premium Pista",
+    "image": "/assets/products/pista.jpeg",
+    "badge": "Fan Favorite",
+    "note": "Lightly salted pistachios with a bold green crunch.",
+    "tag": "Anytime Crunch",
+    "grams": "250g",
+    "price": "Rs. 560",
+    "caloriesPerServing": "Approx. 165 kcal per serving*",
+    "highlights": ["Fiber Source", "Protein Bite", "Roasted Fresh"]
+  },
+  {
+    "name": "Anjeer Reserve",
+    "image": "/assets/products/anjeer.jpeg",
+    "badge": "Fiber Plus",
+    "note": "Naturally dense figs for digestion-friendly snacking.",
+    "tag": "Natural Sweet",
+    "grams": "250g",
+    "price": "Rs. 390",
+    "caloriesPerServing": "Approx. 135 kcal per serving*",
+    "highlights": ["High Fiber", "Naturally Sweet", "Calcium Friendly"]
+  },
+  {
+    "name": "Supermix Trail",
+    "image": "/assets/products/supermix.jpeg",
+    "badge": "Balanced Mix",
+    "note": "Balanced blend of nuts and seeds for complete daily nourishment.",
+    "tag": "Power Combo",
+    "grams": "300g",
+    "price": "Rs. 499",
+    "caloriesPerServing": "Approx. 175 kcal per serving*",
+    "highlights": ["Multi-Nutrient", "Smart Blend", "On-The-Go"]
+  },
+  {
+    "name": "Chia Seeds",
+    "image": "/assets/products/chia.jpeg",
+    "badge": "Wellness Core",
+    "note": "Tiny seeds with big nutrition for smoothies and bowls.",
+    "tag": "Daily Routine",
+    "grams": "200g",
+    "price": "Rs. 320",
+    "caloriesPerServing": "Approx. 120 kcal per serving*",
+    "highlights": ["Omega Source", "Hydration Boost", "Meal Topping"]
+  },
+  {
+    "name": "Flaxseeds",
+    "image": "/assets/products/flaxseeds.jpeg",
+    "badge": "Clean Label",
+    "note": "Wholesome seeds to upgrade everyday meals.",
+    "tag": "Nutrition Add-On",
+    "grams": "200g",
+    "price": "Rs. 280",
+    "caloriesPerServing": "Approx. 125 kcal per serving*",
+    "highlights": ["Lignan Rich", "Fiber Source", "Versatile Use"]
+  },
+  {
+    "name": "Sunflower Seeds",
+    "image": "/assets/products/sunflower-seeds.jpeg",
+    "badge": "Mineral Rich",
+    "note": "Crunchy kernels for mindful snacking and toppings.",
+    "tag": "Snack Upgrade",
+    "grams": "200g",
+    "price": "Rs. 260",
+    "caloriesPerServing": "Approx. 130 kcal per serving*",
+    "highlights": ["Vitamin E", "Magnesium", "Crunch Factor"]
+  }
+]

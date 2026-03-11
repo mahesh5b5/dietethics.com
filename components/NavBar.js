@@ -23,7 +23,7 @@ export default function NavBar() {
       <button
         aria-label="Open menu"
         onClick={() => setIsMenuOpen(true)}
-        className="fixed left-4 top-5 z-[70] flex h-12 w-12 items-center justify-center rounded-2xl border border-[#e3c7c7] bg-white/95 text-[#973131] shadow-lg transition hover:scale-105 hover:bg-[#fbf3f3] focus:outline-none focus:ring-2 focus:ring-[#d7b0b0]"
+        className="fixed left-4 top-5 z-[70] flex h-12 w-12 items-center justify-center rounded-full border border-[#e3c7c7] bg-white/95 text-[#973131] shadow-lg transition hover:scale-105 hover:bg-[#fbf3f3] focus:outline-none focus:ring-2 focus:ring-[#d7b0b0]"
       >
         <svg className="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
           <path strokeLinecap="round" strokeLinejoin="round" d="M4 7h16M4 12h16M4 17h16" />
@@ -43,10 +43,10 @@ export default function NavBar() {
             />
           </Link>
           <span className="mt-1 text-center text-[10px] font-bold uppercase tracking-[0.2em] text-[#f3dede] sm:hidden">
-            pure . honest . nutritions
+            pure . honest . nutritious!
           </span>
           <span className="hidden border-l border-[#e3c7c7]/40 pl-5 text-[11px] font-bold uppercase tracking-[0.22em] text-[#f3dede] sm:block">
-            pure . honest . nutritions
+            pure . honest . nutritious!
           </span>
         </div>
       </nav>
@@ -133,7 +133,7 @@ export default function NavBar() {
 
           <div className="border-t border-[#e3c7c7] px-4 py-5">
             <div className="rounded-2xl bg-[#f5e7e7] px-4 py-3 text-sm font-semibold text-[#7f2929]">
-              pure . honest . nutritions
+              pure . honest . nutritious!
             </div>
           </div>
         </div>
@@ -141,4 +141,5 @@ export default function NavBar() {
     </>
   );
 }
+
 

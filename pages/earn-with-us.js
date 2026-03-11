@@ -1,4 +1,4 @@
-﻿import {
+import {
   BadgePercent,
   Camera,
   Handshake,
@@ -66,7 +66,7 @@ export default function EarnWithUs() {
         structuredData={structuredData}
       />
       <section className="page-card overflow-hidden">
-        <p className="brand-tagline">pure . honest . nutritions</p>
+        <p className="brand-tagline">pure . honest . nutritious!</p>
 
         <div className="mt-3 rounded-3xl border border-[#e3c7c7] bg-gradient-to-br from-[#fffafa] to-[#f7efef] p-6 sm:p-8">
           <p className="text-xs font-extrabold uppercase tracking-[0.2em] text-[#973131]">Creator Partnership Program</p>
@@ -202,5 +202,6 @@ export default function EarnWithUs() {
     </main>
   );
 }
+
 
 

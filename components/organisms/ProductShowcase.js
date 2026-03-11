@@ -1,25 +1,38 @@
 import { useEffect, useMemo, useState } from "react";
+import { useRouter } from "next/router";
 import { useCart } from "../../context/CartContext";
 import ProductCard from "../molecules/ProductCard";
 import ProductDetailsPanel from "../molecules/ProductDetailsPanel";
 
 export default function ProductShowcase({ products }) {
+  const router = useRouter();
   const { add } = useCart();
   const [selectedProductName, setSelectedProductName] = useState(null);
   const [columns, setColumns] = useState(2);
   const isMobile = columns === 2;
 
+  const querySelectedProductName = useMemo(() => {
+    if (!router.isReady) return null;
+    const queryValue = router.query.product;
+    const productFromQuery = Array.isArray(queryValue) ? queryValue[0] : queryValue;
+    if (!productFromQuery || typeof productFromQuery !== "string") return null;
+    const matched = products.find((product) => product.name === productFromQuery);
+    return matched?.name || null;
+  }, [products, router.isReady, router.query.product]);
+
+  const effectiveSelectedProductName = querySelectedProductName || selectedProductName;
+
   const selectedProduct = useMemo(
     () =>
-      selectedProductName
-        ? products.find((product) => product.name === selectedProductName) || null
+      effectiveSelectedProductName
+        ? products.find((product) => product.name === effectiveSelectedProductName) || null
         : null,
-    [products, selectedProductName]
+    [effectiveSelectedProductName, products]
   );
 
   const selectedIndex = useMemo(
-    () => products.findIndex((product) => product.name === selectedProductName),
-    [products, selectedProductName]
+    () => products.findIndex((product) => product.name === effectiveSelectedProductName),
+    [effectiveSelectedProductName, products]
   );
 
   useEffect(() => {
@@ -54,7 +67,7 @@ export default function ProductShowcase({ products }) {
     <section id="products" className="mx-auto mt-10 w-full max-w-[110rem]">
       <div className="mb-4 flex flex-wrap items-end justify-between gap-4">
         <div>
-          <p className="brand-tagline">pure . honest . nutritions</p>
+          <p className="brand-tagline">pure . honest . nutritious!</p>
           <h2 className="mt-2 text-3xl font-bold text-slate-900 sm:text-4xl">Shop The Full Collection</h2>
           <p className="mt-2 max-w-2xl text-sm text-slate-600 sm:text-base">
             Tap any product to open a richer detail view with image showcase, nutrition highlights, and quick actions.
@@ -101,4 +114,5 @@ export default function ProductShowcase({ products }) {
     </section>
   );
 }
+
 

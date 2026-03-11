@@ -1,4 +1,4 @@
-﻿import { Gift, Mail, PackageCheck, Palette, Truck } from "lucide-react";
+import { Gift, Mail, PackageCheck, Palette, Truck } from "lucide-react";
 import siteConfig from "../data/site-config.json";
 import SEO from "../components/SEO";
 
@@ -69,7 +69,7 @@ export default function CorporateGifting() {
         structuredData={structuredData}
       />
       <section className="page-card overflow-hidden">
-        <p className="brand-tagline">pure . honest . nutritions</p>
+        <p className="brand-tagline">pure . honest . nutritious!</p>
         <div className="mt-3 rounded-3xl border border-[#e3c7c7] bg-gradient-to-br from-[#fffafa] to-[#f7efef] p-6 sm:p-8">
           <h1 className="text-3xl font-bold text-slate-900 sm:text-4xl">Corporate Gifting</h1>
           <p className="mt-4 max-w-3xl text-slate-700">
@@ -199,5 +199,6 @@ export default function CorporateGifting() {
     </main>
   );
 }
+
 
 

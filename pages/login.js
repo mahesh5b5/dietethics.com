@@ -1,4 +1,4 @@
-﻿import Image from "next/image";
+import Image from "next/image";
 import Link from "next/link";
 import SEO from "../components/SEO";
 
@@ -21,7 +21,7 @@ export default function Login() {
             className="h-16 w-auto"
             priority
           />
-          <p className="mt-3 brand-tagline">pure . honest . nutritions</p>
+          <p className="mt-3 brand-tagline">pure . honest . nutritious!</p>
           <h1 className="mt-3 text-3xl font-bold text-slate-900">Welcome Back</h1>
           <p className="mt-2 text-sm text-slate-600">Login to manage your orders, profile, and preferences.</p>
         </div>
@@ -86,6 +86,7 @@ export default function Login() {
     </main>
   );
 }
+
 
 
 

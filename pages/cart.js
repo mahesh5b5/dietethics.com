@@ -1,4 +1,4 @@
-﻿import Image from "next/image";
+import Image from "next/image";
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import { ChevronsRight, Minus, Plus, ShoppingCart, Tag } from "lucide-react";
@@ -26,7 +26,7 @@ export default function Cart() {
         noindex
       />
       <section className="page-card">
-        <p className="brand-tagline">pure . honest . nutritions</p>
+        <p className="brand-tagline">pure . honest . nutritious!</p>
         <h1 className="mt-3 text-3xl font-bold text-slate-900 sm:text-4xl">Your Cart</h1>
 
         {items.length === 0 ? (
@@ -170,5 +170,6 @@ export default function Cart() {
     </main>
   );
 }
+
 
 

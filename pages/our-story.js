@@ -1,4 +1,4 @@
-﻿import { Award, Eye, Leaf, Recycle, ShieldCheck, Users } from "lucide-react";
+import { Award, Eye, Leaf, Recycle, ShieldCheck, Users } from "lucide-react";
 import SEO from "../components/SEO";
 
 const standForItems = [
@@ -31,7 +31,7 @@ export default function OurStory() {
       />
       <section className="page-card overflow-hidden">
         <div className="rounded-3xl border border-[#e3c7c7] bg-gradient-to-br from-[#fffafa] via-[#f8f1f1] to-[#f5eded] p-6 sm:p-10">
-          <p className="brand-tagline">pure . honest . nutritions</p>
+          <p className="brand-tagline">pure . honest . nutritious!</p>
           <h1 className="mt-3 text-3xl font-bold text-slate-900 sm:text-5xl">Who We Are</h1>
 
           <div className="mt-6 grid gap-5 lg:grid-cols-[1.2fr_0.8fr]">
@@ -62,14 +62,14 @@ export default function OurStory() {
               <p className="text-xs font-extrabold uppercase tracking-[0.2em] text-[#973131]">Our Two Sustainability Pillars</p>
               <div className="mt-4 space-y-3">
                 <div className="rounded-xl border border-[#e3c7c7] bg-white p-4">
-                  <p className="text-xs font-bold uppercase tracking-[0.16em] text-[#973131]">Pillar 01 · Source Better</p>
+                  <p className="text-xs font-bold uppercase tracking-[0.16em] text-[#973131]">Pillar 01 - Source Better</p>
                   <p className="mt-2 text-sm leading-6 text-slate-700">
                     We focus on responsible sourcing partners and cleaner post-processing practices to improve quality at
                     origin and reduce avoidable waste before products even reach packaging.
                   </p>
                 </div>
                 <div className="rounded-xl border border-[#e3c7c7] bg-white p-4">
-                  <p className="text-xs font-bold uppercase tracking-[0.16em] text-[#973131]">Pillar 02 · Deliver Smarter</p>
+                  <p className="text-xs font-bold uppercase tracking-[0.16em] text-[#973131]">Pillar 02 - Deliver Smarter</p>
                   <p className="mt-2 text-sm leading-6 text-slate-700">
                     Through shelf-life-friendly design, right-size packs, and clear usage guidance, we help customers
                     store better, consume better, and waste less over time.
@@ -208,5 +208,6 @@ export default function OurStory() {
     </main>
   );
 }
+
 
 
